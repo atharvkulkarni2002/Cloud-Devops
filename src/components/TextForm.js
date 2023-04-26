@@ -1,9 +1,5 @@
 import React, {useState } from "react";
 
-import PropTypes from "prop-types";
-import { clear } from "@testing-library/user-event/dist/clear";
-
-
 
 export default function TextForm(props) {
   const [text, setText] = useState("");
@@ -39,11 +35,6 @@ export default function TextForm(props) {
    const change = (event)=>{
     console.log("changed")
     setText(event.target.value)
- }
-   const Bold = ()=>{
-    console.log("changed")
-    let newText =text.
-    setText()
  }
   return (
     <>

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./App.css";
-import PropTypes from "prop-types";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
@@ -10,8 +9,7 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 
